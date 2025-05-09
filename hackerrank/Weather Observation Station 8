@@ -14,3 +14,7 @@ and  -- 첫번쨰 조건과 두번째 조건에 해당하는 데이터를 찾겠
 WHERE (CITY LIKE 'A%' OR CITY LIKE 'E%' OR CITY LIKE 'I%' OR CITY LIKE 'O%' OR CITY LIKE 'U%' OR CITY LIKE 'a%' OR CITY LIKE 'e%' OR CITY LIKE 'i%' OR CITY LIKE 'o%' OR CITY LIKE 'u%' )
 AND 
 (CITY LIKE '%A' OR CITY LIKE'E' OR CITY LIKE '%I' OR CITY LIKE '%O' OR CITY LIKE '%U' OR CITY LIKE '%a' OR CITY LIKE '%e' OR CITY LIKE '%i' OR CITY LIKE '%o' OR CITY LIKE '%u' ) ;
+
+
+알파벳 0과 숫자 o은 키보드 한 칸차이다. 
+눈을 잘 뜨고 코드에서 찾아내던지, 키보드를 잘 보고 치던지 
